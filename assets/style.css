@@ -1,0 +1,215 @@
+body {
+    background-color: #C9E6F0;
+    font-family: Winky sans;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 1rem;
+}
+
+h1 {
+    padding: 0;
+    margin: 1rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+.both-bird-container {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.bird {
+    height: 17rem;
+    margin: 0;
+}
+
+.left-bird-container {
+    display: grid;
+    grid-template-rows: 17rem 17rem;
+    grid-template-columns: 20rem;
+    margin: 0;
+}
+
+.right-bird-container {
+    display: grid;
+    grid-template-rows: 17rem 17rem;
+    grid-template-columns: 20rem;
+    margin: 0;
+}
+
+.left {
+    grid-area: 2 / 1 / -1 / -1;
+}
+
+.greeting {
+    color: #F96E2A;
+    font-family: 'Winky Sans';
+    font-size: 2rem;
+}
+
+.wrapper {
+    min-width: 400px;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 6rem;
+}
+
+.my-name {
+    color: #F96E2A;
+    font-family: 'Winky Sans';
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 0;
+}
+
+#car-on-laptop {
+    border: 5px solid #78B3CE;
+    border-radius: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+.container-main {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+.prof-pic {
+    width: 15rem;
+    border-radius: 50%;
+    border: 5px solid #78B3CE;
+    margin: 0;
+}
+
+.about-me {
+    margin: 0;
+    font-family: Winky sans;
+    color: rgb(8, 8, 92);
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.skills {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    width: 7rem;
+    float: left;
+    margin: 0 1rem 1.5rem 0;
+}
+
+.about-skill {
+    margin: 0;
+    margin-bottom: 3rem;;
+    font-family: Winky sans;
+    color: rgb(7, 7, 77);
+}
+
+.skill-heading {
+    margin-bottom: 0.5rem;
+    font-family: winky sans;
+    font-size: 1.3rem;
+    color: #e06527;
+}
+
+.get-in-touch {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #5a0db1;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #59a0c1;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 4%;
+    font-size: 1.2rem;
+    color: #C9E6F0;
+    cursor: pointer;
+}
+
+.contact-me:hover {
+    background-color: rgb(14, 14, 156);
+}
+
+.socials {
+    width: 100vw;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #59a0c1;
+}
+
+.gitp {
+    margin: 2rem
+}
+
+.socials-link {
+    display: flex;
+    gap: 2rem;
+    width: 40%;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .skill-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill {
+        float: none;
+        margin: 0;
+    }
+
+    .about-me {
+        font-size: 1rem;
+        margin: 0 1rem;
+    }
+
+    .about-skill {
+        text-align: center;
+    }
+}
+
